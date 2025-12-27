@@ -45,3 +45,7 @@ console.log(array2[1]);
 
 console.log("Length of array1: " + array1.length);
 console.log("Length of array2: " + array2.length);
+
+// Declaring heterogeneous array using any type
+var array3: any[] = ["Raviprasad", 25, true, {city: 'Bangalore', country: 'India'}, [1, 2, 3]];
+console.log(array3);

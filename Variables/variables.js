@@ -23,7 +23,7 @@ a1 = false;
 console.log(a1);
 a1 = { name: "Raviprasad", age: 25, city: "Bangalore", isStudent: true, hobbies: ["Reading", "Coding", "Travelling"], address: { street: "Street 123", zipcode: 560001 } };
 console.log(a1);
-// Declaring array variables with different syntaxes
+// Declaring homogeneous arrays
 var array1 = ["HP", "Dell", "Lenovo"];
 var array2 = ["Apple", "Samsung", "OnePlus"];
 console.log(array1);
@@ -32,3 +32,6 @@ console.log(array1[0]);
 console.log(array2[1]);
 console.log("Length of array1: " + array1.length);
 console.log("Length of array2: " + array2.length);
+// Declaring heterogeneous array using any type
+var array3 = ["Raviprasad", 25, true, { city: 'Bangalore', country: 'India' }, [1, 2, 3]];
+console.log(array3);
