@@ -33,7 +33,7 @@ console.log(a1);
 a1 = {name: "Raviprasad", age: 25, city: "Bangalore", isStudent: true, hobbies: ["Reading", "Coding", "Travelling"], address: {street: "Street 123", zipcode: 560001}};
 console.log(a1);
 
-// Declaring array variables with different syntaxes
+// Declaring homogeneous arrays
 var array1: Array<String> = ["HP", "Dell", "Lenovo"];
 var array2: string[] = ["Apple", "Samsung", "OnePlus"];
 
