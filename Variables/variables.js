@@ -1,3 +1,11 @@
+// Declaring a variable with type annotation
+// This variable 'n1' is of type number
 var n1 = 10;
 console.log(n1);
-var n2 = 20;
+// This is how to declare string variables using different quotation styles
+var s1 = "Hello, Typescript! Double quotes";
+var s2 = 'Hello, Typescript! Single quotes';
+var s3 = "Hello, Typescript! Backticks";
+console.log(s1);
+console.log(s2);
+console.log(s3);
