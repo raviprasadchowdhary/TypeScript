@@ -9,3 +9,8 @@ var s3 = "Hello, Typescript! Backticks";
 console.log(s1);
 console.log(s2);
 console.log(s3);
+// Declaring boolean variables
+var b1 = true;
+var b2 = false;
+console.log(b1);
+console.log(b2);
