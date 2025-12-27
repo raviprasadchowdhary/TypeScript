@@ -23,10 +23,13 @@ console.log(b2);
 // Declaring any type variable
 var a1: any = 42;
 console.log(a1);
+
 a1 = "Now I'm a string";
 console.log(a1);
+
 a1 = false;
 console.log(a1);
+
 a1 = {name: "Raviprasad", age: 25, city: "Bangalore", isStudent: true, hobbies: ["Reading", "Coding", "Travelling"], address: {street: "Street 123", zipcode: 560001}};
 console.log(a1);
 
